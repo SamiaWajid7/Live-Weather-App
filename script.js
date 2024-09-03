@@ -10,7 +10,7 @@ const cityTemp = document.getElementById("city-temp");
 async function getData(cityName) {
   try {
     const response = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=f5adad0a75074cfdae1134303240309&q=${cityName}&aqi=yes`
+      `https://api.weatherapi.com/v1/current.json?key=f5adad0a75074cfdae1134303240309&q=${cityName}&aqi=yes`
     );
     // Check if the response is not ok
     if (!response.ok) {
