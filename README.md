@@ -17,4 +17,4 @@ The Live Weather App is a web application that allows users to check the current
 - HTML
 - CSS
 - JavaScript
-- WeatherAPI (https://www.weatherapi.com/)
+- [WeatherAPI](https://www.weatherapi.com/)
